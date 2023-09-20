@@ -1,0 +1,13 @@
+.lineContact {
+  height: 10px;
+  width: 80px;
+  font-size: large;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  padding-top: 300px;
+}

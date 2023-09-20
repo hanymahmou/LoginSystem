@@ -1,0 +1,28 @@
+.linePorto {
+  height: 10px;
+  width: 80px;
+  font-size: large;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.porto {
+  height: 100vh;
+}
+
+.layer {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.6s opacity;
+}
+
+.layer:hover {
+  opacity: 1;
+}
+
+.model {
+  z-index: 9999;
+}
